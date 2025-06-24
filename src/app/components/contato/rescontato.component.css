@@ -1,0 +1,197 @@
+@media (max-width: 1870px){
+
+
+    .img-position img {
+      width: 170px;
+      height: 190px;
+    }
+
+    .text-position h1{
+      font-size: 34px;
+    }
+
+    .text-position p {
+      font-size: 14px;
+    }
+
+    .btn-position button {
+      width: 210px;
+      height: 43px;
+    }
+
+    .btn-position button img{
+      width: 24px;
+      height: 24px;
+    }
+
+    .form input, textarea {
+      width: 410px;
+      height: 45px;
+    }
+
+    .form textarea {
+      height: 70px;
+    }
+
+}
+
+@media (max-width: 1820px){
+  .img-position{
+    padding-right: 0;
+  }
+
+  .img-position img {
+          width: 170px;
+          height: 190px;
+    }
+
+    .text-position{
+      padding-right: 0;
+    }
+
+    .text-position h1{
+      font-size: 32px;
+    }
+
+    .text-position p {
+      font-size: 14px;
+    }
+
+    .btn-position button {
+      width: 200px;
+      height: 43px;
+    }
+
+    .btn-position button img{
+      width: 23px;
+      height: 23px;
+    }
+
+    .form input, textarea {
+      width: 400px;
+      height: 45px;
+    }
+
+    .form textarea {
+      height: 70px;
+    }
+
+
+}
+
+@media (max-width: 1790px){
+
+  .form {
+    text-align: center;
+    place-items: center;
+    padding-bottom: 30px;
+  }
+
+  .form form {
+    width: 400px;
+    height: 420px;
+    padding: 23px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+
+  }
+
+  .form form p {
+    font-size: 14px;
+  }
+
+  .form input, textarea {
+    width: 85%;
+    height: 45px;
+  }
+
+  .form div {
+    width: 100%;
+  }
+
+  #btn-padding{
+  padding-bottom: 0;
+  margin: 0;
+}
+}
+
+@media (max-width: 1400px){
+
+  .img-position img {
+          width: 150px;
+          height: 170px;
+    }
+
+  .text-position h1{
+      font-size: 30px;
+    }
+
+    .text-position p {
+      font-size: 14px;
+    }
+
+  .form input, textarea {
+    width: 100%;
+    height: 45px;
+  }
+
+  .btn-position button {
+      width: 180px;
+      height: 43px;
+    }
+
+}
+
+@media (max-width: 1200px){
+  .elements-position{
+    display: inline-block;
+    text-align: center;
+    place-items: center;
+  }
+
+  .img-position{
+    padding-top: 40px;
+  }
+
+  .text-position{
+    padding-top: 21px;
+  }
+
+  .text-position p {
+    max-width: 400px;
+  }
+
+  .text-position span {
+    color: #EBBE57;
+  }
+
+  .form {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 475px){
+
+  .text-position p {
+    max-width: 400px;
+  }
+
+  .form form {
+    width: 315px;
+  }
+
+  .btn-position {
+  display: inline-block;
+  }
+
+  .btn-instagram{
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 475px){
+  .form form {
+    width: 250px;
+  }
+}
+

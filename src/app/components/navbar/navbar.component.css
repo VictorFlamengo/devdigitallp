@@ -1,0 +1,48 @@
+.navbar{
+  background: linear-gradient(109deg, #0E092A 31%, #0B2059 61%, #092B6F 83%);
+  height: 70px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.container-fluid{
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.itens-position {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Espaçamento entre logo e botão de menu */
+}
+
+
+.nav-link{
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.nav-link:hover{
+  color: #EBBE57;
+}
+
+.nav-link:focus{
+  color: #EBBE57;
+}
+
+#button-warning{
+  background-color: #EBBE57;
+  border: none;
+  color: #130E31;
+  border-radius: 7px;
+  width: 150px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+

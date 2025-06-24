@@ -1,0 +1,270 @@
+/* Quando a largura da tela for menor que 1400px */
+@media (max-width: 1399px) {
+  .uk-slideshow {
+    width: 500px; /* ou ajuste como preferir (ex: 480px) */
+    height: auto;
+  }
+
+  .slideshow-thumbnav {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    padding: 32px 0;
+
+  }
+
+  .uk-slideshow-items {
+    height: 250px;
+  }
+
+  .uk-slideshow-items li {
+    width: 100%;
+    height: auto;
+  }
+
+  .uk-slideshow-items img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .uk-overlay .text{
+  position: absolute;
+  top: 75px;
+}
+
+  .ul-position {
+    height: auto;
+  }
+
+  .uk-transition-active.uk-active [class*=uk-transition-slide], .uk-transition-toggle [class*=uk-transition-slide]:focus-within, .uk-transition-toggle:focus [class*=uk-transition-slide], .uk-transition-toggle:hover [class*=uk-transition-slide] {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 1366px) {
+
+
+  .uk-slideshow {
+    width: 500px;
+    height: auto;
+  }
+
+  .ul-position {
+    height: 100%;
+  }
+
+  .uk-slideshow-items {
+    height: 250px;
+  }
+
+  .uk-slideshow-items li {
+    height: auto;
+    width: 100%;
+  }
+
+  .uk-overlay .text{
+  position: absolute;
+  top: 73px;
+  }
+
+
+  .uk-transition-active.uk-active [class*=uk-transition-slide], .uk-transition-toggle [class*=uk-transition-slide]:focus-within, .uk-transition-toggle:focus [class*=uk-transition-slide], .uk-transition-toggle:hover [class*=uk-transition-slide] {
+  width: 100%;
+}
+}
+
+@media (max-width: 1200px) {
+  .slideshow-thumbnav {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .uk-slideshow {
+    width: 100%;
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 0;
+  }
+
+  .uk-slideshow-items {
+    height: 290px;
+  }
+
+  .uk-slideshow-items li {
+    height: 100%;
+  }
+
+  .uk-slideshow-items img {
+    height: 100%;
+  }
+
+  .text-position {
+    text-align: center;
+    padding: 0;
+  }
+
+  .uk-overlay .text{
+  position: absolute;
+  top: 90px;
+  }
+
+  #txt {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .text h5 {
+    font-size: 25px;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  .text a {
+    font-size: 14px;
+  }
+
+  .ul-position {
+    display: none; /* Oculta thumbnails */
+  }
+
+  .uk-dotnav {
+    display: flex !important;
+  }
+
+  .uk-transition-active.uk-active [class*=uk-transition-slide], .uk-transition-toggle [class*=uk-transition-slide]:focus-within, .uk-transition-toggle:focus [class*=uk-transition-slide], .uk-transition-toggle:hover [class*=uk-transition-slide] {
+  width: 100%;
+  }
+}
+
+
+@media (max-width: 1023px) {
+  .slideshow-thumbnav {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .uk-slideshow {
+    width: 100%;
+    height: 100%;
+    padding: 17px 0;
+  }
+
+  .uk-slideshow-items li {
+    height: 100%;
+  }
+
+  .uk-slideshow-items img {
+    height: 100%;
+  }
+
+  .text-position {
+    text-align: center;
+  }
+
+  .uk-overlay .text{
+  position: absolute;
+  top: 65px;
+  }
+
+  #txt {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+
+
+  .ul-position {
+    display: none; /* Oculta thumbnails */
+  }
+
+  .uk-dotnav {
+    display: flex !important;
+  }
+
+  .uk-transition-active.uk-active [class*=uk-transition-slide], .uk-transition-toggle [class*=uk-transition-slide]:focus-within, .uk-transition-toggle:focus [class*=uk-transition-slide], .uk-transition-toggle:hover [class*=uk-transition-slide] {
+  width: 100%;
+}
+}
+
+@media (max-width: 589px) {
+  .uk-slideshow {
+    padding: 20px 0;
+  }
+
+  .uk-slideshow-items {
+    height: 250px;
+  }
+
+  .uk-slideshow-items img{
+    height: 250px;
+  }
+
+  .text-position {
+    padding-top: 20px;
+  }
+
+  #txt{
+    font-size: 12px;
+  }
+
+
+  .text h5 {
+    font-size: 16px;
+  }
+
+  .text p {
+    font-size: 14px;
+  }
+
+  .text a {
+    font-size: 14px;
+  }
+
+
+}
+
+@media (max-width: 446px) {
+
+  .uk-overlay .text{
+  position: absolute;
+  top: 65px;
+  }
+
+  #txt {
+    font-size: 10px;
+  }
+
+  .text h5 {
+    font-size: 14px;
+  }
+
+  .text p {
+    font-size: 12px;
+  }
+
+  .text a {
+    font-size: 12px;
+  }
+
+}
+
+@media (max-width: 300px) {
+  .text h5 {
+    font-size: 14px;
+  }
+
+  .text p {
+    font-size: 10px;
+  }
+
+  .text a {
+    font-size: 10px;
+  }
+}
+
+

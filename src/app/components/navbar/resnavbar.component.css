@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+  .container-fluid{
+    justify-content: space-between;
+    background: linear-gradient(109deg, #0E092A 31%, #0B2059 61%, #092B6F 83%);
+  }
+}
+
+@media (max-width: 991px) {
+  .itens-position {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

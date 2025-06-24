@@ -1,0 +1,123 @@
+.elements-position {
+  display: flex;
+  justify-content: space-between;
+}
+.img-position {
+  padding-right: 10px;
+  padding-top: 90px;
+
+}
+
+.text-position {
+  color: #ffffff;
+  padding-right: 60px;
+  padding-top: 52px;
+}
+
+.text-position h1 {
+  font-size: 36px;
+  margin-bottom: 12px;
+  max-width: 400px;
+}
+
+.text-position span{
+  text-decoration: underline;
+}
+
+.text-position p {
+  font-size: 16px;
+  margin-bottom: 40px;
+  max-width: 390px;
+}
+
+.btn-position {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+}
+
+.btn-position button {
+  width: 230px;
+  height: 43px;
+  border: none;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+.btn-position button img{
+  margin-right: 10px;
+}
+
+.form{
+  padding-top: 24px;
+}
+
+.form p{
+  font-size: 16px;
+  color: #292444;
+  font-weight: bold;
+}
+
+.button-wpp{
+  background-color: #3EA830;
+  transition-duration: 0.2s;
+}
+
+.button-wpp:hover{
+  background-color: #369428;
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(62, 168, 48, 0.5);
+}
+
+.button-wpp:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 6px rgba(62, 168, 48, 0.4);
+}
+
+.button-insta{
+  background: linear-gradient(71deg,#972153 10%,#FD378B 44%, #CC29DA 100%);
+  transition-duration: 0.2s;
+}
+
+.button-insta:hover {
+  filter: brightness(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(253, 55, 139, 0.5);
+}
+
+.button-insta:active {
+  transform: scale(0.95);
+  box-shadow: 0 2px 6px rgba(253, 55, 139, 0.4);
+}
+
+.form div {
+  margin-bottom: 13px;
+}
+
+.form input, textarea {
+  width: 440px;
+  height: 45px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 12px;
+}
+
+.form textarea {
+  height: 70px;
+  resize: none;
+}
+
+.form button {
+  background-color: #2883FF;
+  color: #ffffff;
+  width: 155px;
+  height: 45px;
+  border: none;
+  border-radius: 7px;
+}
+
+#btn-padding{
+  padding-bottom: 33px;
+  margin: 0;
+}

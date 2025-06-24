@@ -1,0 +1,50 @@
+@media (max-width: 1400px) {
+  .item-position{
+    padding-top: 90px;
+  }
+
+  .item p{
+    text-align: left;
+    max-width: 722px;
+    font-size: 14px;
+  }
+
+  .item img{
+    align-items: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .item-position{
+    display: inline-block;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .item h1 {
+  color: #fff;
+  text-align: center;
+  }
+
+  .item p{
+    text-align: center;
+    max-width: 722px;
+
+  }
+
+  .btn-position{
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #btn{
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px){
+  .item p {
+    font-size: 12px;
+  }
+}

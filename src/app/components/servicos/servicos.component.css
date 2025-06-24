@@ -1,0 +1,90 @@
+h1 {
+  color: #001D63;
+  margin: 0;
+}
+
+h1 span {
+  color: #EEB125;
+}
+
+#txt{
+  font-size: 16px;
+  color: #6C6C6C;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.text-position {
+  padding-top: 40px;
+}
+
+.slideshow-thumbnav {
+    display: flex;
+    gap: 70px;
+    align-items: end;
+
+  }
+
+  .uk-slideshow {
+    width: 600px;
+    height: 520px;
+    flex-shrink: 0;
+    margin: auto 0;
+    border-radius: 10px;
+  }
+
+  .ul-position {
+    height: 460px;
+  }
+
+  .uk-li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .uk-li li {
+    list-style-type: none;
+    padding: 5px 0 ;
+  }
+
+  .thumbnav-vertical img {
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .uk-slideshow-items {
+    height: 300px;
+  }
+
+  .uk-slideshow-items li {
+    width: 100%;
+    height: 100%;
+  }
+
+  .uk-slideshow-items img{
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 10px;
+  }
+
+.uk-overlay{
+  height: 100%;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+.uk-overlay .text{
+  position: absolute;
+  top: 120px;
+}
+
+.text h5, p, a {
+  padding: 10px 0;
+}
+
+.uk-transition-active.uk-active [class*=uk-transition-slide], .uk-transition-toggle [class*=uk-transition-slide]:focus-within, .uk-transition-toggle:focus [class*=uk-transition-slide], .uk-transition-toggle:hover [class*=uk-transition-slide] {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 46%, rgba(0, 0, 0, 0) 100%);
+}

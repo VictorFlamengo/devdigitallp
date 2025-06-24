@@ -1,0 +1,46 @@
+@media (max-width: 1790px) {
+  #contato{
+  background: linear-gradient(61deg, #060319 0%, #22175C 44%);
+}
+}
+
+@media (max-width: 1200px) {
+  #sobre{
+    height: 2000px;
+  }
+
+  .bg{
+    height: 100%;
+    background: linear-gradient( 90deg, #0D0829 30%, #092562 56%,  #082E75 86%);
+  }
+
+  #container-contact{
+    text-align: center;
+  }
+}
+
+@media (max-width: 785px) {
+  .banner {
+    height: 860px;
+  }
+}
+
+@media (max-width: 547px) {
+  .banner {
+    height: 900px;
+  }
+}
+
+@media (max-width: 507px) {
+  .banner {
+    height: 800px;
+  }
+}
+
+@media (max-width: 437px) {
+  .banner {
+    height: 900px;
+  }
+}
+
+

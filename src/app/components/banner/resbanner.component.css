@@ -1,0 +1,160 @@
+@media (max-width: 1200px) {
+  .bannerElements{
+    gap: 5%;
+  }
+
+  #title-alert{
+  font-size: 32px;
+  color: #fff;
+  font-weight: 400;
+  }
+
+  #title-alert span{
+    font-weight: 650;
+  }
+
+  #subtitle-alert{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+  }
+}
+
+@media (max-width: 992px) {
+  .bannerElements{
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+  }
+
+  .bannerText{
+    padding: 0 10px;
+  }
+
+
+  #title-alert{
+    color: #fff;
+    font-weight: 400;
+  }
+
+  #subtitle-alert{
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .bannerImage{
+    place-items: center;
+    width: auto;
+  }
+
+  .terminal-loader {
+    width: 290px;
+    height: 140px;
+  }
+}
+
+@media (max-width: 785px) {
+  .bannerElements{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    padding-top: 85px;
+  }
+
+
+  .bannerText{
+    text-align: center;
+  }
+
+  #title-alert{
+    font-size: 42px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  #subtitle-alert{
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .bannerImage{
+    width: 100%;
+    place-items: center;
+    padding: 0 16px;
+  }
+
+  .terminal-loader {
+    width: 65%;
+    height: 200px;
+  }
+
+  .btn-position{
+    padding: 45px 16px;
+    width: 100%;
+    text-align: center;
+
+  }
+
+  #btn{
+  width: 70%;
+  height: 50px;
+  }
+}
+
+
+
+@media (max-width: 507px) {
+  .bannerElements{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    padding-top: 40px;
+  }
+
+
+  .bannerText{
+    text-align: center;
+  }
+
+  #title-alert{
+    font-size: 38px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  #subtitle-alert{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .bannerImage{
+    width: 100%;
+    place-items: center;
+    padding: 0 16px;
+  }
+
+  .terminal-loader {
+    width: 100%;
+    height: 200px;
+  }
+
+  .btn-position{
+
+    width: 100%;
+    text-align: center;
+
+  }
+
+  #btn{
+  width: 100%;
+  height: 50px;
+}
+}
