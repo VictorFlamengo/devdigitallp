@@ -8,6 +8,18 @@
 
 }
 
+.img-position img{
+  transition: transform 0.3s ease;
+  image-rendering: crisp-edges; /* melhora nitidez em alguns navegadores */
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.img-position img:hover{
+  transform: rotate(5deg);
+}
+
 .text-position {
   color: #ffffff;
   padding-right: 60px;
@@ -55,7 +67,7 @@
 .form p{
   font-size: 16px;
   color: #292444;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .button-wpp{
@@ -99,8 +111,13 @@
   height: 45px;
   border-radius: 5px;
   border: none;
-  outline: none;
+  outline: #29244417 solid 1px;
   padding-left: 12px;
+  transition: outline 0.4s ease;
+}
+
+.form input:focus, textarea:focus {
+  outline: #29244441 solid 1px;
 }
 
 .form textarea {
