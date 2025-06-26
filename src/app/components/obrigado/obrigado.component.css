@@ -1,3 +1,13 @@
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+
+
 .thank-you-container {
   
   color: white;
@@ -51,6 +61,7 @@ h2 {
   display: flex;
   justify-content: center;
   gap: 1rem;
+  
 }
 
 .social-icons img {
@@ -62,7 +73,7 @@ h2 {
 
 .social-icons img:hover {
   transform: scale(1.1);
-  cursor:pointer;
+  cursor: pointer;
 }
 #button-warning{
     text-align: center;
