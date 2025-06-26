@@ -174,3 +174,14 @@ ul {
 .example-2 .icon-content a[data-social="youtube"] ~ .tooltip {
   background-color: #ff0000;
 }
+
+@media (max-width: 1555px) {
+  #myVideo {
+   display: none; /* esconde o vídeo */
+  
+}
+
+  #resposividade{
+  background: linear-gradient(to right, #0a0a23, #0a1f5f);
+}
+}
