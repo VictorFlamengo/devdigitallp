@@ -1,5 +1,5 @@
 .thank-you-container {
-  background: linear-gradient(to right, #0a0a23, #0a1f5f);
+  
   color: white;
   min-height: 100vh;
   display: flex;
@@ -62,6 +62,7 @@ h2 {
 
 .social-icons img:hover {
   transform: scale(1.1);
+  cursor:pointer;
 }
 #button-warning{
     text-align: center;
@@ -139,7 +140,7 @@ ul {
 
 .example-2 .icon-content a[data-social="whatsapp"] .filled,
 .example-2 .icon-content a[data-social="whatsapp"] ~ .tooltip {
-  background-color: #128c7e;
+  background-color: #3fa931;
 }
 
 .example-2 .icon-content a[data-social="facebook"] .filled,
