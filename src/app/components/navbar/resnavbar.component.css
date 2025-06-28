@@ -19,5 +19,9 @@
   .navbar-nav {
     flex-direction: column;
     gap: 10px;
+    place-items: center;
+  }
+  .nav-link {
+    margin-right: 0;
   }
 }
