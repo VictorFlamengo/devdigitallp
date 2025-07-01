@@ -82,17 +82,29 @@ p{
 }
 
 @keyframes typeAndDelete {
-  0%,
-  10% {
+  0%, 10% {
     width: 0;
   }
-  45%,
-  55% {
-    width: 6.8em;
-  } /* adjust width based on content */
-  90%,
-  100% {
+  30%, 45% {
+    width: 10.9em; /* Para "Venha ser Digital" */
+  }
+  50%, 55% {
     width: 0;
+  }
+  70%, 85% {
+    width: 7em; /* Para "dev digital" */
+  }
+  90%, 100% {
+    width: 0;
+  }
+}
+
+@keyframes changeText {
+  0%, 44% {
+    content: "Venha Ser Digital";
+  }
+  45%, 100% {
+    content: "Dev Digital";
   }
 }
 
@@ -160,10 +172,12 @@ p{
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 0.2em solid #EBBE57; /* Cursor */
-  animation: typeAndDelete 4s steps(11) infinite,
-    blinkCursor 0.5s step-end infinite alternate;
-
+  border-right: 0.2em solid #EBBE57;
+  animation: typeAndDelete 8s steps(22) infinite,
+             blinkCursor 0.5s step-end infinite alternate;
 }
 
-
+.text::before {
+  content: "";
+  animation: changeText 8s linear infinite;
+}
